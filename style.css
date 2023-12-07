@@ -1,0 +1,86 @@
+*{
+    padding:0px;
+    border:0px;
+    margin:0px;
+}
+
+html{
+    min-width: 650px;
+    min-height: 650px;
+}
+
+body{
+    background-color: rgb(38, 31, 138);
+    
+}
+
+main{
+    background-color: aliceblue;
+    width:50%;
+    margin:auto;
+    border-radius: 10px;
+    margin-top:50px;
+    padding-bottom: 50px;
+}
+
+h1{
+    text-align: center;
+    padding:20px;
+}
+
+.botoes{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap:10px;
+    max-width:300px;
+    width:100%;
+    margin:40px auto;
+    
+
+}
+
+.large-horizontal-btn{
+    grid-column: span 2;
+}
+
+.large-vertical-btn{
+    grid-row: span 2;
+}
+
+.botoes button{
+    
+  background-color: rgb(91, 175, 214);
+  font-size: 18px;
+  text-align: center;
+  border-radius: 5px;
+  padding:20px;
+  border:1px solid black;
+}
+
+.botoes button:hover{
+    background-color: rgb(159, 220, 248);
+
+}
+
+.botoes button:active{
+    background-color: rgb(238, 250, 255);
+
+}
+
+.mostrador{
+    background-color: darkslategray;
+    height:50px;
+    width:30%;
+    margin:auto;
+    margin-top: 20px;
+    border: 1px solid black;
+    font-size: 30px;
+    padding:5px;
+    text-align: right;
+    line-height: 50px;
+}
+
+p{
+    color:white;
+}
+

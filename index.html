@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora básica</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+
+    <main>
+        <div>
+            <h1>Calculadora básica</h1>
+            <div class="mostrador">
+                <p id="mostrador"></p>
+            </div>
+            <div class="botoes">
+                <button onclick="limpar()">C</button>
+                <button onclick="operacao(this)">/</button>
+                <button onclick="operacao(this)">*</button>
+                <button onclick="operacao(this)">-</button>
+                <button onclick="escrever(this)">7</button>
+                <button onclick="escrever(this)">8</button>
+                <button onclick="escrever(this)">9</button>
+                <button class="large-vertical-btn" onclick="operacao(this)">+</button>
+                <button onclick="escrever(this)">4</button>
+                <button onclick="escrever(this)">5</button>
+                <button onclick="escrever(this)">6</button>
+                <button onclick="escrever(this)">1</button>
+                <button onclick="escrever(this)">2</button>
+                <button onclick="escrever(this)"">3</button>
+                <button class="large-vertical-btn" onclick="calcular()">enter</button>
+                <button class="large-horizontal-btn" onclick="escrever(this)">0</button>
+                <button onclick="escrever(this)">.</button>
+            </div>
+        </div>
+    </main>
+    
+    <script src="code.js"></script>
+
+</body>
+</html>
